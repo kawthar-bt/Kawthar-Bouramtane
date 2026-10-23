@@ -1,0 +1,121 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f7f2;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #3f6046;
+}
+
+button {
+    background-color: #557a5c;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3f6046;
+}
+
+.create-button {
+    display: block;
+    margin: 20px auto;
+    background-color: #e58b45;
+}
+
+.filter {
+    text-align: center;
+    margin: 20px;
+}
+
+.filter input,
+.filter select {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+}
+
+.recipe {
+    background-color: white;
+    width: 280px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #ddd;
+}
+
+.recipe img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.recipe button:last-child {
+    background-color: #c95b50;
+}
+
+form {
+    background-color: white;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.pagination {
+    text-align: center;
+    margin: 20px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0008;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #f8f7f2;
+    width: 450px;
+    max-width: 90%;
+    max-height: 85vh;
+    overflow-y: auto;
+    padding: 15px;
+    border-radius: 10px;
+}
